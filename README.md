@@ -31,7 +31,7 @@ Example:
 ```text
 Aug 18 09:01:12 kali sshd[1011]: Failed password for root from 203.0.113.10
 Aug 18 09:02:18 kali sshd[1012]: Failed password for admin from 203.0.113.10
-Aug 18 09:07:11 kali sshd[1017]: Failed password for test from 198.51.100.25
+Aug 18 09:07:11 kali sshd[1017]: Failed password for test from 198.51.100.25```
 ---
 
 ## 🏗️ Detection Architecture
@@ -69,7 +69,7 @@ Aug 18 09:07:11 kali sshd[1017]: Failed password for test from 198.51.100.25
              +--------+--------+
                       |
                       v
-               alerts.csv
+               alerts.csv```
 
 ## 🔍 Detection Logic
 
@@ -100,4 +100,4 @@ The detection script follows a SOC-style authentication monitoring workflow:
 
 ```bash
 git clone https://github.com/Akshaychavan9420/geo-based-bruteforce-detection.git
-cd geo-based-bruteforce-detection
+cd geo-based-bruteforce-detection```
